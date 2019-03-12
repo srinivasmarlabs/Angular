@@ -1,0 +1,169 @@
+
+
+urls:
+
+------->
+->https://developer.mozilla.org/en-US/
+
+https://cli.angular.io/
+
+
+>https://www.npmjs.com/
+
+
+>https://angularjs.org/
+
+>https://angularjs.org/  
+
+
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Commands:
+----------------------->
+
+
+>repl - READEVALUESTE
+
+
+
+>npm install -g @angular/cli
+
+>ng new my-dream-app
+
+>cd my-dream-app
+
+>ng serve
+
+>gloabl
+
+>vegetable.getPrice.bind(car)()
+>bfn=vegrable.getPrice.bind(car)
+>bfn()
+
+
+
+::::NameSpace::::
+
+
+>ibm=ibm || {}
+
+>ibm={}
+{}
+
+>ibm.x=75
+
+
+>ibm.greet=function(){consolog.log('welcome');}
+
+
+>ibm
+
+ {x:75,greet:[function]}
+
+
+>vegetable.getPrice.call(car)
+
+
+>vegetable.getPrice.apply(car)
+
+
+>vegetable.show = function(colour,type){
+
+   console.log('The',this.nam
+
+
+>vegetable.show=function(type,colour){
+
+  console.log('The',type,'of colour',colour,'is priced at:',this.price);
+  }
+
+
+>vegetable.show('vegetable','red')
+
+>vegetable.sow.call(car, 'car' ,'blue')
+
+>vegetable.show.apply(car, ['car', 'blue'])
+
+
+>install tool Abgualr cli
+
+
+>npm install -g @angular/cli
+
+
+>ng new dayone
+
+  --rounting n
+  --css
+
+>
+
+>tslint
+
+>package.jsion//defautl temaplte file
+
+
+
+>pakckage.jposon>
+
+
+
+>Read.md///associated with the repo
+
+>tscofig.json //tupescrito,that are the modules you are entrinng
+
+>tsconfig.json
+
+ {
+
+}
+
+
+
+>ng generate component components/demo
+
+>ng serve --open
+
+
+> <li *ngFor="let veg of vegetables">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==========================================>
