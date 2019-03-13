@@ -3,7 +3,15 @@
 urls:
 
 ------->
-->https://developer.mozilla.org/en-US/
+
+-->JSONPlaceholder
+
+--> https://jsonplaceholder.typicode.com/
+
+
+-->https://developer.mozilla.org/en-US/
+
+http://reactivex.io/documentation/observable.html
 
 https://cli.angular.io/
 
@@ -16,16 +24,32 @@ https://cli.angular.io/
 >https://angularjs.org/  
 
 
->
+>https://fontawesome.com/icons?d=gallery
+
+>https://angular.io/tutorial/toh-pt6
+
+>https://angular.io/tutorial
+
+>https://angularjs.org/
+
+>https://angular.io/events
+
+>https://material.angular.io/components/form-field/overview
+
+>https://stackblitz.com/angular/pobqjramvav?file=app%2Fform-field-overview-example.ts
 
 
+>https://developer.mozilla.org/en-US/docs/Web/API
 
+>https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=DwEwlgbgBGILwHICyBPAIpBA-AEgUwBsCB7AdWICcCRgB6cCLAKCYGMCBDAZy6gAU8FLsQB2TAN5MAwqIAuFVgFdZlABQiOAWzwBKJlCiSDsgBZguAOg3a41vAG59UAL5OuJ4gHdVOo1FaiwgR4FiQA5qoIAkKiUJ5gplB2AFxQCAA0puZWWrqOBq7OQA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=7.3.4
 
+>https://semantic-ui.com/
 
+>https://getbootstrap.com/docs/4.3/getting-started/introduction/
 
-
-
-
+>underscors.js
+>https://www.loadash.com/
+>https://jsonplaceholder.typicode.com/
 
 
 
@@ -147,23 +171,196 @@ Commands:
 
 
 
+demo.comp.html:
+------------
+
+<div>
+   <h1>compo</h1>
+   <button (click)="btnclicked($event)">Me<button>
+
+
+    <P>
+         <in typ="text" [(ngModel)]="message">
+
+     </p>
+      message:{{message}}
+</div>
+
+
+------------->
+
+democompoents.ts:
+
+btncliked()
+{
+alert()'';
+
+console.log(event);
+}
+
+
+
+
+--------------------------->app model ts
+
+import { MatInputModule } from '@angualr/material'
+
+
+
+
+imports:
+{
+ matsInput
+}
+
+
+
+
+
+--------------------------->sercvie:
 
 
 
 
 
 
+----------------->component.ts
+
+
+sortValues(prop: string, direction: string)
+
+  this.actorlist.sort((first, second) =>
+
+  {
+    if(prop==='name')
+     {
+
+    //string compariion
+
+        if(direction == 'ascending')
+           {
+              if(first[prop] < second[prop])
+                   {
+                return -1;
+               }
+         if(first[prop] < second[prop])
+                   {
+                return 0;
+               }
+if(first[prop] < second[prop])
+                   {
+                return 1;
+               }
+
+            }
+
+     };
+     if(prop ==='followers')
+    {
+
+     
+   }    
+
+
+    }
+
+});
+
+}
+}
+
+
+
+=================================>
+
+
+ object.keys(obj)
+
+  object.value(obj)
+   obj.values(obj).map(vlaue) => typeof(val))
+
+   obj.values(obj).map(val) => (typeof(val) === 'object' && Array.isArray(val))? 'Array' : typeof(val))
+
+
+   object.reduce((n,s) => s +=n,0) 
+
+
+
+===============================>pipedemo.compoent.html
+
+
+
+export class Pide
+
+
+tday is:{{today | date:'medium Time'}}
+
+
+========================>
+
+create the pipe name: piglatin
+
+orginal text : hellow how are you
+
+piglatin : elloHa owha reaa ouya
+
+
+split and comobe all and ht join other
+
+==================>parent.html
+
+<div id="pdiv">
+   <input type='text' {}
+
+
+
+  <app-child parentFavDish></app-parent>
+</dov>
 
 
 
 
+======================>parent.comp.html
+
+<div class+"container">
+
+  <app-parent></app-parent>
+</dov>
 
 
 
+==============>parent.css
+
+#pdiv{
+   border:2 px solid red;
+   margin:3px;
+   padding:3px;
+
+}
 
 
+============>
+child.html
 
+<div id="cdiv">
 
+    <app-child></app-child>
 
+    </div>
 
-==========================================>
+==========>child.css
+
+#cdiv{
+
+   border:2px solid blue;
+   margin:3ppx;
+  padding:3px;
+}
+
+========>
+
+ $.ajax(url1, cb1(data1){
+
+}
+
+=========================================>

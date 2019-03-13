@@ -17,13 +17,17 @@ git push origin master
 
 
 
+material.angular.io
 
 
 
+https://material.angular.io/components/categories
 
+getbootstrap.com
 
+https://foundation.zurb.com/
 
-
+https://semantic-ui.com/
 
 
 
@@ -136,3 +140,74 @@ git push origin master
 > <li *ngFor="let veg of vegetables">
 
 
+
+
+====================================================================================>
+
+
+ng build <project>
+
+ng build --aot=true
+
+
+============================================================================>day 2
+
+>ng generate component compoents/actorlist --skipTests.
+
+>ng gc c components/demo --skipTests
+
+>ng gc c components/pipedemo --skipTests
+
+
+bootstrap:
+---------->
+
+>npm install --save jquery popper.js bootstrap font-awesome
+
+>npm install --save @angular/material @angular/cdk @angular/animation
+
+>ng generate service services/actorlist --skipTests
+
+>ng g p pipes/piglatin --skipTests
+
+>ng g s Services/observabledemo --skipTests
+
+>ng g c components/observabledemo --skipTests
+
+>
+
+>ng g s services/post --skipTests
+
+>ng g c components/post --skipTests
+
+
+>Route mapping:
+
+
+>ng g c components/home --skipTest
+
+>ng g c components/friendly404 --skipTest
+
+============================================================================>
+
+>ng build --base-href=/ibmapp/
+
+//--base-href
+
+
+>cd /appachetomat/
+
+
+>dist-day3-copyfiles into the tomcat /webapp folder
+
+>
+
+git remote add origng path
+
+============================================================================>
+
+https://github.com/cselvaraju/IBM-Pune-Angular-Mar-11-13-2019-Day1
+https://github.com/cselvaraju/IBM-Pune-Angular-Mar-11-13-2019-Day2
+https://github.com/cselvaraju/IBM-Pune-Angular-Mar-11-13-2019-Day3
+
+=============================================================================>
