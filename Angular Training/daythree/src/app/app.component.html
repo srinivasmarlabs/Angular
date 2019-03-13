@@ -1,0 +1,29 @@
+<div class="container">
+  <h1>Welcome Angular Day 3</h1>
+
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/parent" routerLinkActive="active">Parent-Child</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/pipes" routerLinkActive="active">Pipe Demo</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/posts" routerLinkActive="active">Posts List</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/abcd" routerLinkActive="active">Not Found</a>
+    </li>
+  </ul>
+
+  <!-- <app-pipedemo></app-pipedemo> -->
+  <!-- Favourite Country: {{favCountry}} -->
+  <!-- <app-parent (countryEvent)="showCountry($event)"></app-parent> -->
+  <!-- <app-observabledemo></app-observabledemo> -->
+  <!-- <app-post></app-post> -->
+
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,20 @@
+<div>
+  <button (click)="createPost()">Create Post</button>
+  <h3>List of Posts</h3>
+  <div *ngIf="postList">
+    <div class="card" *ngFor="let post of postList">
+      <div class="card-header">
+        ID: {{post.id}}
+      </div>
+      <div class="card-title">
+        Title: {{post.title}}
+      </div>
+      <div class="card-body">
+        Body: {{post.body}}
+      </div>
+    </div>
+  </div>
+  <div *ngIf="!postList">
+    <img src="assets/loading.gif" alt="Loading....">
+  </div>
+</div>
